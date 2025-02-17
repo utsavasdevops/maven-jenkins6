@@ -7,3 +7,4 @@ webhook check
 +---Automation Check---+
 
 java deploy seperate test..
+Aumate Build and Deploy Test..
