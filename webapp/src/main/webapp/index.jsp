@@ -8,3 +8,4 @@ webhook check
 
 java deploy seperate test..
 Aumate Build and Deploy Test..
+Test for today
