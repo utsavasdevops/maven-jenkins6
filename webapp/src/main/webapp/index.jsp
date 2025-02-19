@@ -8,3 +8,5 @@ Checking Auto Deployment Jenkins.
 Deploy job separate.
 
 checking auto deploy after build.
+
+Pipelie Test
