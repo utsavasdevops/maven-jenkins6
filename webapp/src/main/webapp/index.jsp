@@ -10,4 +10,4 @@ java deploy seperate test..
 Aumate Build and Deploy Test..
 Test for today
 
-Pipeline Test....AUTOMATION.
+Pipeline Test....AUTOMATION...
