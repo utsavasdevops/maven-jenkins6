@@ -9,4 +9,4 @@ Deploy job separate.
 
 checking auto deploy after build.
 
-Pipelie Test
+Pipelie Test. Pipeline auto deploy.
