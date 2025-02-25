@@ -10,5 +10,5 @@ java deploy seperate test..
 Aumate Build and Deploy Test..
 Test for today
 
-Pipeline Test... \n
+Pipeline Test...
 Automation Through Pipeline Success.
