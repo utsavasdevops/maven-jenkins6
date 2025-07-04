@@ -10,3 +10,4 @@ It's Utsav Praapati and Ready to start Boarding Process
 </html>
 
 Jenkins PIPELINE
+  Automatic
