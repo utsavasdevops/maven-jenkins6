@@ -9,6 +9,4 @@ It's Utsav Praapati and Ready to start Boarding Process
 </body>
 </html>
 
-
-
-Continues Deployment.
+Jenkins PIPELINE
