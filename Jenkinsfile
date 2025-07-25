@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'maven3'
+        maven 'maven'
         jdk 'java17'
     }
     stages {
@@ -22,7 +22,7 @@ pipeline {
         }
         stage('BUILD other project') {
             steps {
-                build wait: false, job: 'java-deploy-pipeline'
+                build wait: false, job: 'java-pipe-deploy'
             }
         }
     }
