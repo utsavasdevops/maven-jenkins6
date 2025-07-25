@@ -1,32 +1,29 @@
 pipeline {
     agent any
     tools {
-        maven 'maven3'
+        maven 'maven'
         jdk 'java17'
     }
     stages {
-        stage('Download Code from git') {
+        stage('Download code from GIT') {
             steps {
-                echo 'Downloading code from Git'
                 git branch: 'main', url: 'https://github.com/utsavasdevops/maven-jenkins6.git'
             }
         }
         stage('Build') {
             steps {
-                echo 'Building Java project using maven'
                 sh 'mvn clean package'
             }
         }
-        stage('Archive Artifacts') {
+        stage('Archive Artifact') {
             steps {
-                echo 'Archiving the artifacts'
                 archiveArtifacts artifacts: '**/*.war', followSymlinks: false
             }
         }
-        stage('Build Pipeline Deploy Project') {
+        stage('BUILD other project') {
             steps {
-                build wait: false, job: 'pipeline-java-deploy'
+                build wait: false, job: 'java-pipe-deploy'
             }
-        }        
+        }
     }
 }
