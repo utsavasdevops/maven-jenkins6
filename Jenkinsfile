@@ -22,7 +22,7 @@ pipeline {
         }
         stage('BUILD other project') {
             steps {
-                build wait: false, job: 'java-deploy-pipeline'
+                build wait: false, job: 'java-pipe-deploy'
             }
         }
     }
