@@ -2,6 +2,7 @@ Devops TechLab Jenkins Training !!
 Testing POLL SCM
 Testing git webhook
 Testing Again
+
 test by utsav
 webhook check
 +---Automation Check---+
@@ -12,3 +13,12 @@ Test for today
 
 Pipeline Test... \n
 Automation Through Pipeline Success.
+=======
+
+Checking Auto Deployment Jenkins.
+
+Deploy job separate.
+
+checking auto deploy after build.
+
+Pipelie Test. Pipeline auto deploy.
